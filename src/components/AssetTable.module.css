@@ -1,0 +1,73 @@
+.tableContainer {
+  overflow: hidden;
+  padding: 0;
+}
+
+.tableTitle {
+  padding: 24px;
+  margin: 0;
+  font-size: 1.1rem;
+  border-bottom: 1px solid #0c0c0c;
+}
+
+.tableWrapper {
+  overflow-x: hidden;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th {
+  text-align: left;
+  padding: 12px 10px;
+  color: var(--text-muted);
+  font-weight: 500;
+  font-size: 0.8rem;
+  border-bottom: 1px solid #0c0c0c;
+  white-space: nowrap;
+}
+
+.table td {
+  padding: 12px 10px;
+  border-bottom: 1px solid #0c0c0c;
+  font-size: 0.85rem;
+  transition: background-color 0.2s ease;
+}
+
+.table tbody tr:hover td {
+  background-color: #0c0c0c;
+}
+
+.table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.rightAlign {
+  text-align: right !important;
+}
+
+.assetName {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.name {
+  font-weight: 600;
+  color: #fff;
+}
+
+.symbol {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.typeBadge {
+  background-color: #0c0c0c;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
