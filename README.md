@@ -1,6 +1,6 @@
 # VaultX Portfolio Aggregator 🚀
 
-**Live Demo:** [vaultx-lake.vercel.app](https://vaultx-lake.vercel.app)
+[vaultx-lake.vercel.app](https://vaultx-lake.vercel.app)
 
 VaultX is a modern, responsive, and highly secure portfolio management and wealth aggregation platform built with React, Vite, and Firebase. It allows users to track diverse asset classes, manage portfolios collaboratively using a family-based architecture, and access real-time market insights.
 
