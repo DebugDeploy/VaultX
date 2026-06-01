@@ -1,5 +1,7 @@
 # VaultX Portfolio Aggregator 🚀
 
+**Live Demo:** [vaultx-lake.vercel.app](https://vaultx-lake.vercel.app)
+
 VaultX is a modern, responsive, and highly secure portfolio management and wealth aggregation platform built with React, Vite, and Firebase. It allows users to track diverse asset classes, manage portfolios collaboratively using a family-based architecture, and access real-time market insights.
 
 ---
@@ -57,63 +59,6 @@ VaultX Portfolio Aggregator/
 └── package.json            # Dependencies and scripts
 ```
 
----
-
-## 🚀 Getting Started
-
-Follow these steps to set up the project locally.
-
-### 1. Prerequisites
-- Node.js (v18 or higher recommended)
-- A Firebase Project (with Authentication and Firestore enabled)
-
-### 2. Clone the Repository
-```bash
-git clone https://github.com/your-username/vaultx-portfolio-aggregator.git
-cd "VaultX Portfolio Aggregator"
-```
-
-### 3. Install Dependencies
-```bash
-npm install
-```
-
-### 4. Configure Environment Variables
-Create a `.env` file in the root directory and add your Firebase project credentials:
-
-```env
-VITE_FIREBASE_API_KEY=your_api_key
-VITE_FIREBASE_AUTH_DOMAIN=your_project_id.firebaseapp.com
-VITE_FIREBASE_PROJECT_ID=your_project_id
-VITE_FIREBASE_STORAGE_BUCKET=your_project_id.appspot.com
-VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
-VITE_FIREBASE_APP_ID=your_app_id
-```
-
-### 5. Start the Development Server
-```bash
-npm run dev
-```
-Navigate to `http://localhost:5173` in your browser.
-
----
-
-## ☁️ Deployment
-
-This project is optimized for deployment on **Vercel**. 
-
-1. Push your code to your GitHub repository.
-2. Import the project into Vercel.
-3. Vercel will automatically detect the Vite framework (`npm run build`).
-4. **Crucial:** Add all the `VITE_FIREBASE_*` environment variables in the Vercel project settings.
-5. In your Firebase Console, ensure your Vercel production domain is added to the **Authorized domains** list in Firebase Authentication settings.
-
----
-
-## 🔮 Future Enhancements
-- **Multi-Currency Support:** Allowing users to view aggregate net worth in multiple base currencies.
-- **Advanced AI Rebalancing:** Predictive portfolio rebalancing suggestions based on market volatility.
-- **Crypto Wallet Integration:** Directly sync assets from Web3 wallets.
 
 ---
 
