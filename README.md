@@ -8,14 +8,14 @@ VaultX is a modern, responsive, and highly secure portfolio management and wealt
 
 ##  Key Features
 
-- ** Secure Google Authentication:** Seamless user onboarding and secure session management using Firebase Authentication.
-- ** Family-Based Architecture:** Shared portfolio management. Assets are tied to a `familyId`, enabling real-time collaboration where linked accounts can access, manage, and view shared family assets.
-- ** Live Market Data Aggregation:** Fetches real-time asset pricing (stocks, crypto, mutual funds) using Yahoo Finance integration (via Vite API proxy to bypass CORS/401s).
-- ** Dynamic Dashboards & Analytics:** Interactive and visually appealing charts (Performance, Asset Allocation) built with Recharts.
-- ** Cloud-Native Backend:** Entirely powered by Firebase Firestore for robust, real-time data synchronization and persistence. Say goodbye to hardcoded mock data!
-- ** Data Export:** One-click export of portfolio data to PDF (via jsPDF/AutoTable) and Excel (via XLSX).
-- ** AI Insights:** Intelligent portfolio breakdown and market analysis.
-- ** Modern UI/UX:** Features a beautiful, responsive design with support for Custom Appearances (Dark/Light modes, custom themes).
+-  Secure Google Authentication: Seamless user onboarding and secure session management using Firebase Authentication.
+-  Family-Based Architecture: Shared portfolio management. Assets are tied to a `familyId`, enabling real-time collaboration where linked accounts can access, manage, and view shared family assets.
+-  Live Market Data Aggregation: Fetches real-time asset pricing (stocks, crypto, mutual funds) using Yahoo Finance integration (via Vite API proxy to bypass CORS/401s).
+-  Dynamic Dashboards & Analytics: Interactive and visually appealing charts (Performance, Asset Allocation) built with Recharts.
+-  Cloud-Native Backend: Entirely powered by Firebase Firestore for robust, real-time data synchronization and persistence. Say goodbye to hardcoded mock data!
+-  Data Export: One-click export of portfolio data to PDF (via jsPDF/AutoTable) and Excel (via XLSX).
+-  AI Insights: Intelligent portfolio breakdown and market analysis.
+-  Modern UI/UX: Features a beautiful, responsive design with support for Custom Appearances (Dark/Light modes, custom themes).
 
 ---
 
