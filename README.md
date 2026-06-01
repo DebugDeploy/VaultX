@@ -1,4 +1,4 @@
-# VaultX Portfolio Aggregator 🚀
+# VaultX Portfolio Aggregator 
 
 [vaultx-lake.vercel.app](https://vaultx-lake.vercel.app)
 
